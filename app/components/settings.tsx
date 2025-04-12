@@ -693,6 +693,7 @@ export function Settings() {
     </ListItem>
   );
 
+  {/*
   const saasStartComponent = (
     <ListItem
       className={styles["subtitle-button"]}
@@ -716,7 +717,7 @@ export function Settings() {
         }}
       />
     </ListItem>
-  );
+  );*/}
 
   const useCustomConfigComponent = // Conditionally render the following ListItem based on clientConfig.isApp
     !clientConfig?.isApp && ( // only show if isApp is false
