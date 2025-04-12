@@ -824,7 +824,7 @@ export const internalAllowedWebDavEndpoints = [
   "https://app.koofr.net/dav/Koofr",
 ];
 
-export const DEFAULT_GA_ID = "G-89WN60ZK2E";
+//export const DEFAULT_GA_ID = "G-89WN60ZK2E";
 
 export const SAAS_CHAT_URL = "https://gpt.100000.best";
 export const SAAS_CHAT_UTM_URL = "https://gpt.100000.best";
