@@ -109,7 +109,6 @@ export function AuthPage() {
         </>
       ) : null}
 
-      {/*
       <div className={styles["auth-actions"]}>
         <IconButton
           text={Locale.Auth.Confirm}
@@ -123,7 +122,6 @@ export function AuthPage() {
           }}
         />
       </div>
-      */}
     </div>
   );
 }
