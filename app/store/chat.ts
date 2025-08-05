@@ -124,7 +124,7 @@ function getSummarizeModel(
   providerName: string,
 ): string[] {
   // if it is using gpt-* models, force to use 4o-mini to summarize
-  if (currentModel.startsWith("gpt") || currentModel.startsWith("gpt-4o-image")) {
+  if (currentModel.startsWith("gpt") || currentModel.startsWith("grok")) {
     const configStore = useAppConfig.getState();
     const accessStore = useAccessStore.getState();
     const allModel = collectModelsWithDefaultModel(
