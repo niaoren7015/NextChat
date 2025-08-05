@@ -156,6 +156,8 @@ function TopBanner() {
     storage.setItem("bannerDismissed", "true");
   };
 
+  return null;
+  
   if (!isVisible) {
     return null;
   }
