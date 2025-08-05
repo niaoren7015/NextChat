@@ -12,7 +12,7 @@ const cn = {
        \\ 1️⃣ 想要零配置开箱即用，[点击这里立刻开启对话 🚀](${SAAS_CHAT_UTM_URL})
        `
       : `😆 哦豁，别慌:
-       \ 1️⃣点击[这里](/#/auth)输入访问秘钥 🔑
+       \ 1️⃣点击[这里](/#/auth)输入秘钥 🔑
         `,
   },
   Auth: {
@@ -23,7 +23,7 @@ const cn = {
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
-    SaasTips: "配置太麻烦，想要立即使用",
+    SaasTips: "去用用看",
     TopTips:
       "🥳 NextChat AI 首发优惠，立刻解锁 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
   },
